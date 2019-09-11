@@ -157,5 +157,20 @@ input {
 
 /* Thesis Section */
 
+.container.thesis {
+    display: flex;
+}
+
+.info-main.video {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+.stories.fisma {
+    background-color: lightgray;
+}
 
 /* Footer */
