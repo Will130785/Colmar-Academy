@@ -1,8 +1,65 @@
 /* Header */
 
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.logo img {
+    height: 32px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+li.shift {
+    margin-right: 16px;
+}
+
 /* Learn Section */
 
+.container.learn {
+    display: flex;
+    background-color: lightgray;
+}
+
+.banner {
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px 0;
+}
 
 /* Practice Section */
 
