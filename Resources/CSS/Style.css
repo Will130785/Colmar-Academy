@@ -112,6 +112,49 @@ input {
 /* Start Section */
 
 
+.container.start {
+    background-color: lightgray;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+.courses {
+    margin-right: 72px;
+    margin-left: 72px;
+}
+
+.article-image img {
+    height: auto;
+    width: 100%;
+}
+
+.content-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.article.center {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.course-info {
+    background-color: white;
+}
+
 /* Thesis Section */
 
 
