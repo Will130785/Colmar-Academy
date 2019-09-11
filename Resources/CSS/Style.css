@@ -63,6 +63,51 @@ input {
 
 /* Practice Section */
 
+.container.practice {
+    display: flex;
+}
+
+.info {
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+.info-main img {
+    width: 100%;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 16px;
+}
+
+
+.stories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.story-image {
+    width: 35%;
+    margin: 16px 16px;
+}
+
+.story-image img {
+    height: auto;
+    width: 100%;
+}
+
+.story {
+    width: 65%;
+}
+
+.stories.guest {
+    background-color: lightgray;
+}
 
 /* Start Section */
 
