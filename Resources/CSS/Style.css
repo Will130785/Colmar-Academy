@@ -39,7 +39,7 @@ li.shift {
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .logo, .menu {
         display: none;
     }
@@ -59,7 +59,7 @@ li.shift {
     background-color: lightgray;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .container.learn {
         flex-direction: column;
     }
@@ -89,7 +89,7 @@ li.shift {
     
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 .banner {
     width: 60%;
     margin: 32px 24px 32px 24px;
@@ -100,7 +100,7 @@ li.shift {
     width: 100%;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 .text {
     width: 40%;
     margin: auto;
@@ -116,7 +116,7 @@ li.shift {
 }
 
 input {
-    padding: 8px 0;
+    padding: 8px 150px 8px 150px;
 }
 
 /* Practice Section */
@@ -125,7 +125,7 @@ input {
     display: flex;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .container.practice {
         flex-direction: column;
     }
@@ -144,13 +144,13 @@ input {
 
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 .mobile-image {
     display: none;
 }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .stories {
             margin: 16px 16px 64px 16px;
     }
@@ -164,7 +164,7 @@ input {
     }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 .info {
     width: 60%;
     margin: 32px 24px 32px 24px;
@@ -185,7 +185,7 @@ input {
 }
 
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 .sub-container {
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ input {
     text-align: center;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
 .story-image {
     width: 35%;
     margin: 16px 16px;
@@ -231,7 +231,7 @@ input {
     padding-bottom: 32px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .container.start {
         flex-direction: column;
         background-color: white;
@@ -258,7 +258,7 @@ input {
     background-color: green;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 800px){
     .mobile-course {
         display: none;
     }
@@ -275,9 +275,13 @@ input {
     margin-left: 72px;
 }
 
+.article {
+    height: 400px;
+    width: 400px;
+}
+
 
 .article-image img {
-    height: auto;
     width: 100%;
 }
 
@@ -285,7 +289,7 @@ input {
     display: flex;
     justify-content: center;
     margin-top: 32px;
-    margin-bottom: 32px;
+    
 }
 
 .content-bottom {
@@ -301,6 +305,9 @@ input {
 .course-info {
     background-color: white;
     padding: 16px 0 16px 16px;
+    height: 150px;
+    position: relative;
+    bottom: 6px;
 }
 
 .course-info h3 {
@@ -313,7 +320,7 @@ input {
     display: flex;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .container.thesis {
         flex-direction: column;
     }
@@ -355,7 +362,7 @@ video {
     margin-right: 16px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .foot {
         border: none;
         margin-top: 40px;
