@@ -32,7 +32,7 @@ li.shift {
     display: none;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 600px){
     .logo, .menu {
         display: none;
     }
@@ -50,6 +50,14 @@ li.shift {
 .container.learn {
     display: flex;
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px){
+    .container.learn {
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
 
 .banner {
@@ -82,6 +90,16 @@ input {
 
 .container.practice {
     display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .container.practice {
+        flex-direction: column;
+    }
+
+    .info.mobile-version {
+        display: none;
+    }
 }
 
 .info {
@@ -135,6 +153,30 @@ input {
     padding-bottom: 32px;
 }
 
+@media only screen and (max-width: 600px){
+    .container.start {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .courses {
+        display: none;
+    }
+
+}
+
+.mobile-course h2 {
+    padding: 16px 0 24px 16px;
+    margin-bottom: 8px;
+    background-color: lightgray;
+}
+
+@media only screen and (min-width: 600px){
+    .mobile-course {
+        display: none;
+    }
+}
+
 .title {
     text-align: center;
     padding-top: 32px;
@@ -145,6 +187,7 @@ input {
     margin-right: 72px;
     margin-left: 72px;
 }
+
 
 .article-image img {
     height: auto;
@@ -176,6 +219,20 @@ input {
 
 .container.thesis {
     display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .container.thesis {
+        flex-direction: column;
+    }
+
+    .stories.fisma, .stories.then {
+        display: none;
+    }
+
+    .text-two.three {
+        display: none;
+    }
 }
 
 
