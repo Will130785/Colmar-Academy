@@ -1,3 +1,10 @@
+/* Universal Styles */
+
+body {
+    font-family: Helvetica;
+    line-height: 1.5;
+}
+
 /* Header */
 
 
@@ -55,26 +62,52 @@ li.shift {
 @media only screen and (max-width: 600px){
     .container.learn {
         flex-direction: column;
-        align-items: center;
     }
+
+    .banner {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    .text h1 {
+        padding: 32px 0 32px 16px;
+    }
+
+    .text p {
+        padding: 0 0 24px 16px;
+    }
+        
     
 }
 
+@media only screen and (min-width: 600px){
 .banner {
     width: 60%;
     margin: 32px 24px 32px 24px;
+}
 }
 
 .banner img {
     width: 100%;
 }
 
+@media only screen and (min-width: 600px){
 .text {
     width: 40%;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 }
 
 .text h1 {
@@ -100,22 +133,65 @@ input {
     .info.mobile-version {
         display: none;
     }
+
+    .stories {
+        flex-direction: column;
+    }
+
+    .desktop-image {
+        display: none;
+    }
+
 }
 
+@media only screen and (min-width: 600px){
+.mobile-image {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 600px){
+    .stories {
+            margin: 16px 16px 64px 16px;
+    }
+
+    .stories.guest {
+        margin-bottom: 0;
+    }
+
+    .mobile-image {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px){
 .info {
     width: 60%;
     margin: 32px 24px 32px 24px;
 }
+}
+
 
 .info-main img {
     width: 100%;
 }
 
+.text-two h1 {
+    margin: 32px 0 24px 0;
+}
+
+.text-two h6 {
+    padding-top: 32px;
+}
+
+
+@media only screen and (min-width: 600px){
 .sub-container {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin-top: 16px;
+}
 }
 
 
@@ -126,9 +202,11 @@ input {
     text-align: center;
 }
 
+@media only screen and (min-width: 600px){
 .story-image {
     width: 35%;
     margin: 16px 16px;
+}
 }
 
 .story-image img {
@@ -163,12 +241,21 @@ input {
         display: none;
     }
 
+    .title {
+        padding-bottom: 32px;
+    }
+
 }
 
 .mobile-course h2 {
-    padding: 16px 0 24px 16px;
-    margin-bottom: 8px;
+    padding: 24px 0 24px 16px;
+    margin: 8px 16px 8px 16px;
     background-color: lightgray;
+    border-radius: 10px;
+}
+
+.mobile-course h2:hover {
+    background-color: green;
 }
 
 @media only screen and (min-width: 600px){
@@ -213,6 +300,11 @@ input {
 
 .course-info {
     background-color: white;
+    padding: 16px 0 16px 16px;
+}
+
+.course-info h3 {
+    padding: 8px 0;
 }
 
 /* Thesis Section */
@@ -261,4 +353,15 @@ video {
 
 .terms {
     margin-right: 16px;
+}
+
+@media only screen and (max-width: 600px){
+    .foot {
+        border: none;
+        margin-top: 40px;
+    }
+
+    .menu-two {
+        display: none;
+    }
 }
